@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-        name='pilton',
+        name='headlessplot',
         version='1.0',
-        py_modules= ['pilton'],
+        py_modules= ['plot'],
         package_data     = {
             "": [
                 "*.txt",
