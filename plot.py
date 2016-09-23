@@ -7,8 +7,8 @@ from matplotlib import pylab as p
 
 gshow=True
 
-def plot(fn="fit.png",show=True):
-    p.savefig(fn)
+def plot(fn="fit.png",show=True,**aa):
+    p.savefig(fn,**aa)
 
     print "saving",fn,show,gshow
     if show and gshow:
