@@ -10,9 +10,9 @@ gshow=True
 def plot(fn="fit.png",show=True,**aa):
     p.savefig(fn,**aa)
 
-    print "saving",fn,show,gshow
+    print("saving",fn,show,gshow)
     if show and gshow:
-        print "showing"
+        print("showing")
         os.system("display "+fn+"&")
 
 
